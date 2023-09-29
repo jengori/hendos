@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color:rgb(206, 206, 206);
+    box-sizing: border-box;
+    font-family: "Roboto Condensed";
+}
+
+.hendos {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.bottle-body {
+    
+    width: 150px;
+    height: 350px;
+    background-color: rgb(33, 9, 9);
+    border-radius: 60% 60% 100% 100% / 40% 40% 10% 10%;
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.bottle-neck {
+    width: 70px;
+    height: 200px;
+    background-color: rgb(33, 9, 9);
+    border-radius: 100% 100% 0 0 / 10% 10% 0 0;
+    position: absolute;
+    left: 40px;
+    bottom: -50px;
+    overflow: hidden;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+.bottle-cap {
+    width: 73px;
+    height: 70px;
+    border-radius: 100% 100% 0 0 / 10% 10% 0 0;
+    position: absolute;
+    z-index: -1;
+    background-color: black;
+    bottom: 130px;
+    left: 40px;
+}
+
+.bottle-neck-top {
+    background-color: rgb(206, 206, 206);
+    height: 100px;
+    width: 100px;
+
+}
+
+
+
+.label {
+    background-image: linear-gradient(to right, #da6215, #dd5d1a, #e0591f, #e35323, #e64e28, #e64e28, #e64e28, #e64e28, #e35323, #e0591f, #dd5d1a, #da6215);
+    width: 150px;
+    height: 240px;
+    background-color: rgb(233, 71, 17);
+    border-radius: 0 0 100% 100% / 0 0 5% 5%;
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+}
+
+.label-outer-circle{
+    height: 225px;
+    width: 180px;
+    background-color: transparent;
+    border: 3px black solid;
+    border-radius: 100%;
+    position: absolute;
+    left: -15px;
+    top: 5px;
+}
+
+.label-inner-circle{
+    height: 140px;
+    width: 120px;
+    background-color: transparent;
+    border: 3px black solid;
+    border-radius: 80%;
+    position: absolute;
+    left: 15px;
+    top: 50px;
+}
+
+.made-in-sheffield {
+    font-weight: bolder;
+    position: absolute;
+    font-size: 8px;
+    left: 47px;
+    top: 78px;
+
+}
+
+.estd-1885 {
+    color: white;
+    position: absolute;
+    left: 47px;
+    top: 88px;
+    font-size: 14px;
+}
+
+.strong-and-northern {
+    background-image: linear-gradient(to right, #da6215, #dd5d1a, #e0591f, #e35323, #e64e28, #e64e28, #e64e28, #e64e28, #e35323, #e0591f, #dd5d1a, #da6215);
+    width: 160px;
+    height: 30px;
+    /* background-color:  rgb(233, 71, 17); */
+    text-align: center;
+    font-size: 17px;
+    font-stretch:ultra-condensed;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    line-height: 2;
+
+}
+
+.hendos-text {
+    font-size: 24px;
+}
+
+.letter1 {
+    position: absolute;
+    top: 60px;
+    left: 6px;
+    z-index: +2;
+    transform: rotate(-60deg);
+}
+
+.spicy {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 7px;
+    position: absolute;
+    left: 36px;
+    top: 142px;
+}
+
+.letter2 {
+    position: absolute;
+    top: 45px;
+    left: 17px;
+    z-index: +2;
+    transform: rotate(-55deg);
+}
+
+.letter3 {
+    position: absolute;
+    top: 30px;
+    left: 29px;
+    z-index: +2;
+    transform: rotate(-45deg);
+}
+
+.letter4 {
+    position: absolute;
+    top: 18px;
+    left: 45px;
+    z-index: +2;
+    transform: rotate(-35deg);
+}
+
+.letter5 {
+    position: absolute;
+    top: 14px;
+    left: 62px;
+    z-index: +2;
+    transform: rotate(-10deg);
+}
+
+.letter6 {
+    position: absolute;
+    top: 14px;
+    left: 80px;
+    z-index: +2;
+    transform: rotate(10deg);
+}
+
+.letter7 {
+    position: absolute;
+    top: 20px;
+    left: 97px;
+    z-index: +2;
+    transform: rotate(30deg);
+}
+
+.letter8 {
+    position: absolute;
+    top: 28px;
+    left: 112px;
+    z-index: +2;
+    transform: rotate(40deg);
+}
+
+.letter9 {
+    position: absolute;
+    top: 44px;
+    left: 124px;
+    z-index: +2;
+    transform: rotate(55deg);
+}
+
+.letter10 {
+    position: absolute;
+    top: 60px;
+    left: 138px;
+    z-index: +2;
+    transform: rotate(60deg);
+}
+
+.letter11 {
+    position: absolute;
+    top: 186px;
+    left: 30px;
+    z-index: +2;
+    transform: rotate(35deg);
+}
+
+.letter12 {
+    position: absolute;
+    top: 197px;
+    left: 48px;
+    z-index: +2;
+    transform: rotate(20deg);
+}
+
+.letter13 {
+    position: absolute;
+    top: 203px;
+    left: 68px;
+    z-index: +2;
+    transform: rotate(10deg);
+}
+
+.letter14 {
+    position: absolute;
+    top: 202px;
+    left: 86px;
+    z-index: +2;
+    transform: rotate(-10deg);
+}
+
+.letter15 {
+    position: absolute;
+    top: 197px;
+    left: 100px;
+    z-index: +2;
+    transform: rotate(-25deg);
+}
+
+.letter16 {
+    position: absolute;
+    top: 185px;
+    left: 117px;
+    z-index: +2;
+    transform: rotate(-35deg);
+}
+
+
+.light-1 {
+    width: 15px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    
+    left: 40px;
+    opacity: 50%;
+
+}
+
+.light-2 {
+    width: 35px;
+    height: 314px;
+    background-color: white;
+    border-radius: 0 30% 0 0 / 0 20% 0 0;
+    opacity: 30%;
+    position: absolute;
+    z-index: +2;
+    left: 95px;
+    top:40px;
+
+}
+
+span {
+   font-weight: bolder;
+   line-height: 2;
+}
+
+
+
